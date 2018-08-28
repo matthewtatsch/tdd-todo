@@ -51,12 +51,14 @@ class NewVisitorTest(unittest.TestCase):
 
         # The page updates, and shows both items on the list
         self.check_for_row_in_list_table('1: Buy peacock feathers')
-        self.check_for_row_in_list_table('2: Use peacock feathers to make a fly')
+        self.check_for_row_in_list_table(
+            '2: Use peacock feathers to make a fly'
+        )
 
         # The site has generated a unique url with some text explaining
         # that this is where the list is stored
         self.fail('Finish the test!')
-        
+
         # User visits url and sees the to-do list is still there
 
 if __name__ == '__main__':

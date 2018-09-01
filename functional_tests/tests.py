@@ -118,7 +118,7 @@ class NewVisitorTest(LiveServerTestCase):
             delta=10
         )
 
-        # She starts a new list and sees the input is nicely 
+        # She starts a new list and sees the input is nicely
         # centered there too
         inputbox.send_keys('testing')
         inputbox.send_keys(Keys.ENTER)
